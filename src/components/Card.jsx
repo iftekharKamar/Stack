@@ -7,7 +7,7 @@ const coverImageUrl="https://static.vecteezy.com/system/resources/thumbnails/057
 
 const StackCard = ({
   title,
-  description,
+  desc,
   upvoteCount,
   cardCount,
   clonerCount,
@@ -35,12 +35,12 @@ const StackCard = ({
       <div className="p-4">
         {/* Title */}
         <h3 className="text-xl font-bold text-gray-900 mb-2 leading-tight">
-          title
+          {title}
         </h3>
 
         {/* Description */}
         <p className="text-gray-600 text-sm line-clamp-3 mb-4">
-          {description}
+          {desc}
         </p>
 
         {/* Bottom Section */}
